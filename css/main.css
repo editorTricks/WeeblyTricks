@@ -39,7 +39,7 @@ h1 {
 }
 /* Banner */
 .banner {
-  background: url(css/images/apartment_stairs.jpg);
+  background: url(../../images/dog.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
