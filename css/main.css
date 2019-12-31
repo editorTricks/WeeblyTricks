@@ -49,5 +49,15 @@ h1 {
 }
 .banner .container {
   padding: 40px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.banner h2 {
+  font-size: 48px;
+}
+.banner p {
+  font-size: 26px;
 }
