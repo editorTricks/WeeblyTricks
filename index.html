@@ -2,126 +2,17 @@
 <html>
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-	  /* Preloader */
-	 .lds-heart {
-	   margin: auto;
-       display: inline-block;
-       position: relative;
-       width: 80px;
-       height: 80px;
-       transform: rotate(45deg);
-       transform-origin: 40px 40px;
-     }
-     .lds-heart div {
-       top: 32px;
-       left: 32px;
-       position: absolute;
-       width: 32px;
-       height: 32px;
-       animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-     }
-     .lds-heart div:after,
-     .lds-heart div:before {
-       content: " ";
-       position: absolute;
-       display: block;
-       width: 32px;
-       height: 32px;
-     }
-     .lds-heart div:before {
-       left: -24px;
-       border-radius: 50% 0 0 50%;
-     }
-     .lds-heart div:after {
-       top: -24px;
-       border-radius: 50% 50% 0 0;
-     }
-     @keyframes lds-heart {
-       0% {
-         transform: scale(0.95);
-       }
-       5% {
-         transform: scale(1.1);
-       }
-       39% {
-         transform: scale(0.85);
-       }
-       45% {
-         transform: scale(1);
-       }
-       60% {
-         transform: scale(0.95);
-       }
-       100% {
-         transform: scale(0.9);
-       } 
-     }
-	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/main.css" />
+
   </head>
 
-  <body class='header  wsite-theme-light'>
+  <body class='header-page-layout'>
   
-    <div class='preloader'>
-	  <div class="lds-heart"><div></div></div>
-    </div>
-  
-    <div class="scroll"></div>
-  
-	<div id="wrapper">
-	
-	  <div id="header">
-	    <div class="headerStick">
-	      <div class="container">
-	        <label id="menu-button" class="hamburger" for="mobile-input"><span></span></label>
-		    <div class="logo">{logo}</div>
-		    <div id="nav">{menu}</div>
-			<div class="favoriteMobile">
-			  <div class="favoriteMobileEmpty"></div>
-			  <div class="favoriteMobileRed"></div>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	  
-	  <div id="banner">
-	    {{#header}}
-		  <div class="container">{content}</div>
-		{{/header}}
-	  </div>
-	  
-	  <div id="main">
-		{{#sections}}
-		  <div class="container">{content}</div>
-		{{/sections}}
-	  </div>
-	  
-	  <div id="bottom">
-	    <div class="container">{bottom:content}</div>
-	  </div>
-	  
-	  <div id="footer">{footer}</div>
-	  
-	</div>
-	
-	<div id="mobile-nav">
-      <input type="checkbox" id="mobile-input">
-	  {menu}
-	</div>
+	<h1>I think we're lookin' good, wouldn't you say?</h1>
 
-	<script type="text/javascript" src="/files/theme/plugins.js"></script>
-	<script type="text/javascript" src="/files/theme/custom.js"></script>
-	<script type="text/javascript" src="/files/theme/recommend.js"></script>
-	<script type="text/javascript" src="/files/theme/recent.js"></script>
-	<script type="text/javascript" src="/files/theme/popular.js"></script>
-	<script type="text/javascript" src="/files/theme/search.js"></script>
-	<script type="text/javascript" src="/files/theme/favorites.js"></script>
-	<script type="text/javascript" src="https://gitcdn.xyz/repo/marcj/css-element-queries/master/src/ResizeSensor.js"></script>
-	<script type="text/javascript" src="https://gitcdn.xyz/repo/WeCodePixels/theia-sticky-sidebar/master/js/theia-sticky-sidebar.js"></script>
-	<script type="text/javascript" src="/files/theme/pagination.js"></script>	
+
+	<script type="text/javascript" src="js/custom.js"></script>
 	
   </body>
 </html>
