@@ -43,4 +43,9 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  text-align: center;
+}
+.banner .container {
+  padding: 40px;
+  boz-sizing: border-box;  
 }
