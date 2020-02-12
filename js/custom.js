@@ -30,7 +30,7 @@ jQuery(function($) {
   ].join(""));
   
   // Main
-  var main = $('.container').wrap('<div class="main"></div>');
+  var main = $('.container').wrapAll('<div class="main"></div>');
   
   // Footer
   footer.html([
