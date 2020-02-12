@@ -2,8 +2,8 @@ jQuery(function($) {
   
   // Global HTML Elements
   var header = $("<div>").attr("class", "header");
-  var banner = $("<div>").attr("class", "banner");
-  var main = $('.container').wrap('<div class="main"></div>').parent();
+  var banner = $('.bannerContainer').wrap('<div class="banner"></div>').parent();
+  var main = $('.mainContainer').wrap('<div class="main"></div>').parent();
   var footer = $("<div>").attr("class", "footer");
   
   // Header
@@ -21,14 +21,6 @@ jQuery(function($) {
 	    "</div>",
 	"</div>"
   ].join(""));
-  
-  // Banner
-  banner.html([
-	"<div class='container'>",
-		"<h2>Tutorial for your Weebly Site</h2>",
-		"<p>Let's level up your Weebly site!</p>",
-	"</div>"
-  ].join("")); 
   
   // Footer
   footer.html([
