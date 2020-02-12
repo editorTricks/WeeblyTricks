@@ -14,7 +14,7 @@ jQuery(function($) {
 			"<div class='navigation'>",
 				"<ul>",
 					"<li><a href='/index.html'>Home</a></li>",
-					"<li>About</li>",
+					"<li><a href='/about.html'>About</a></li>",
 					"<li>Contact</li>",
 				"</ul>",
 			"</div>",
