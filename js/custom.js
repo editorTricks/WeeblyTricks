@@ -28,6 +28,6 @@ jQuery(function($) {
 	"</div>"
   ].join(""));
   
-  $("body").prepend(header banner);
+  $("body").prepend(header, banner);
   
 });
