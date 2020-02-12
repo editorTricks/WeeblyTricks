@@ -3,7 +3,7 @@ jQuery(function($) {
   // Global HTML Elements
   var header = $("<div>").attr("class", "header");
   var banner = $("<div>").attr("class", "banner");
-  var main = $('.container').wrapAll('<div class="main"></div>');
+  var main = $('.container').wrap('<div class="main"></div>').parent();
   var footer = $("<div>").attr("class", "footer");
   
   // Header
