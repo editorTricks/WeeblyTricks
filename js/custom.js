@@ -1,7 +1,7 @@
 jQuery(function($) {
   
   // Global HTML Elements
-  var header = $("<div>").attr("id", "header");
+  var header = $("<div>").attr("class", "header");
   
   header.html([
 	"<div class='container'>",
@@ -13,7 +13,7 @@ jQuery(function($) {
 					"<li>Contact</li>",
 				"</ul>",
 			"</div>",
-	  "</div>",
+	    "</div>",
 	"</div>"
   ]);
   
