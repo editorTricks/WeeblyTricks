@@ -1,5 +1,5 @@
-jQuery(function($){
-  $(".banner").on("click", function() {
-    alert("It works!"); 
-  });
+jQuery(function($) {
+  
+  alert("hello!");
+  
 });
