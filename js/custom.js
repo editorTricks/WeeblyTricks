@@ -3,6 +3,7 @@ jQuery(function($) {
   // Global HTML Elements
   var header = $("<div>").attr("class", "header");
   var banner = $("<div>").attr("class", "banner");
+  var main = $('.container').wrapAll('<div class="main"></div>');
   var footer = $("<div>").attr("class", "footer");
   
   // Header
@@ -27,10 +28,7 @@ jQuery(function($) {
 		"<h2>Tutorial for your Weebly Site</h2>",
 		"<p>Let's level up your Weebly site!</p>",
 	"</div>"
-  ].join(""));
-  
-  // Main
-  var main = $('.container').wrapAll('<div class="main"></div>');
+  ].join("")); 
   
   // Footer
   footer.html([
