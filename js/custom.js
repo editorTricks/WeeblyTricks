@@ -8,7 +8,7 @@ jQuery(function($) {
   ]);
   
   // Global HTML Body Elements
-  $(".header").load("header.html");
-  $(".footer").load("footer.html");
+  $(".header").load("partials/header.html");
+  $(".footer").load("partials/footer.html");
   
 });
