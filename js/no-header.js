@@ -19,7 +19,7 @@ jQuery(function($) {
 		    "<a href='/index.html'><img src='images/wt_logo.png' /></a></div>",
 			"<div class='navigation'>",
 				"<ul>",
-					"<li><a href='/index.html'>Home</a></li>",
+					"<li><a href='/'>Home</a></li>",
 					"<li><a href='/about.html'>About</a></li>",
 					"<li>Contact</li>",
 				"</ul>",
