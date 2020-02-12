@@ -18,6 +18,6 @@ jQuery(function($) {
 	"</div>"
   ].join(""));
   
-  $("body").first(header);
+  $("body").append(header);
   
 });
