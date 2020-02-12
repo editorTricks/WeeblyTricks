@@ -27,16 +27,22 @@ jQuery(function($) {
 	"<div class='container'>",
 		"<h2>Tutorial for your Weebly Site</h2>",
 		"<p>Let's level up your Weebly site!</p>",
-	"</div>",
+	"</div>"
+  ].join(""));
+  
+  // Main
+  main.html([
+	"<div class='container'>",
+	"</div>"
   ].join(""));
   
   // Footer
   footer.html([
 	"<div class='container'>",
 		"<p>Copyright 2020</p>",
-	"</div>",
+	"</div>"
   ].join(""));
   
-  $("body").prepend(header, banner, footer);
+  $("body").prepend(header, banner, main, footer);
   
 });
