@@ -1,6 +1,9 @@
 jQuery(function($) {
+	
+  // Global HTML Head Elements
+  var head = $("<head>");
   
-  // Global HTML Elements
+  // Global HTML Body Elements
   var header = $("<div>").attr("class", "header");
   var banner = $('.bannerContainer').wrap('<div class="banner"></div>').parent();
   var main = $('.mainContainer').wrap('<div class="main"></div>').parent();
@@ -29,6 +32,7 @@ jQuery(function($) {
 	"</div>"
   ].join(""));
   
+  $("body").first().before(head);
   $("body").prepend(header, banner, main, footer);
   
 });

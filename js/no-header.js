@@ -1,6 +1,8 @@
 jQuery(function($) {
+	
+  // Global HTML Head Elements
   
-  // Global HTML Elements
+  // Global HTML Body Elements
   var header = $("<div>").attr("class", "header");
   var main = $('.mainContainer').wrap('<div class="main"></div>').parent();
   var footer = $("<div>").attr("class", "footer");
