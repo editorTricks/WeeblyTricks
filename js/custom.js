@@ -6,10 +6,7 @@ jQuery(function($) {
   header.html([
 	"<div class='container'>",
 		"<div class='logo'>",
-		    "<a href='/index.html'>",
-			    "<img src='images/wt_logo.png' />",
-			"</a>",
-		"</div>",
+		    "<a href='/index.html'><img src='images/wt_logo.png' /></a></div>",
 			"<div class='navigation'>",
 				"<ul>",
 					"<li><a href='/index.html'>Home</a></li>",
@@ -19,7 +16,7 @@ jQuery(function($) {
 			"</div>",
 	    "</div>",
 	"</div>"
-  ]);
+  ].join(""));
   
   header.appendTo("body");
   
