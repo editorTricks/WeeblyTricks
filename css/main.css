@@ -63,3 +63,9 @@ h1 {
   font-size: 26px;
 }
 /* Main */
+
+/* Google Forms */
+.freebirdFormviewerViewCenteredContent {
+  width: 100%;
+  max-width: 100%;
+}
