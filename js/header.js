@@ -3,6 +3,12 @@ jQuery(function($) {
   // Global HTML Head Elements
   var head = $("<head>");
   
+  head.html([
+    "<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>",
+	"<meta name='viewport'content='idth=device-width, initial-scale=1.0' />",
+	"<link rel='stylesheet' href='css/main.css' />"
+  ].join(""));
+  
   // Global HTML Body Elements
   var header = $("<div>").attr("class", "header");
   var banner = $('.bannerContainer').wrap('<div class="banner"></div>').parent();
