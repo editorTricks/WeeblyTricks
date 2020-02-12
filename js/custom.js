@@ -3,7 +3,10 @@ jQuery(function($) {
   // Global HTML Elements
   var header = $("<div>").attr("class", "header");
   var banner = $("<div>").attr("class", "banner");
+  var main = $("<div>").attr("class", "main");
+  var footer = $("<div>").attr("class", "footer");
   
+  // Header
   header.html([
 	"<div class='container'>",
 		"<div class='logo'>",
@@ -19,15 +22,21 @@ jQuery(function($) {
 	"</div>"
   ].join(""));
   
+  // Banner
   banner.html([
-	"<div class='banner'>",
-		"<div class='container'>",
-			"<h2>Tutorial for your Weebly Site</h2>",
-			"<p>Let's level up your Weebly site!</p>",
-		"</div>",
-	"</div>"
+	"<div class='container'>",
+		"<h2>Tutorial for your Weebly Site</h2>",
+		"<p>Let's level up your Weebly site!</p>",
+	"</div>",
   ].join(""));
   
-  $("body").prepend(header, banner);
+  // Footer
+  footer.html([
+	"<div class='container'>",
+		"<p>Copyright 2020</p>",
+	"</div>",
+  ].join(""));
+  
+  $("body").prepend(header, banner, footer);
   
 });
