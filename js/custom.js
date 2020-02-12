@@ -4,7 +4,7 @@ jQuery(function($) {
   var header = $("<div>").attr("id", "header");
   
   header.html([
-    "<div class="cool">",
+    "<div class='cool'>",
     "</div>"
   ]);
   
