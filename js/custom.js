@@ -9,5 +9,6 @@ jQuery(function($) {
   
   // Global HTML Body Elements
   $(".header").load("header.html");
-  $(".footer").load("footer.html")
+  $(".footer").load("footer.html");
+  
 });
